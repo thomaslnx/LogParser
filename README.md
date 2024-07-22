@@ -22,6 +22,19 @@ After make the clone of this repo and enter inside his folder, there are some sc
 ```sh
 npm install
 ```
+**OBS:** If you face errors like that:
+```
+npm ERR! code 1
+npm ERR! path /your/code/path/node_modules/esbuild
+npm ERR! command failed
+npm ERR! command sh -c node install.js
+npm ERR! [esbuild] Failed to find package "@esbuild/darwin-arm64" on the file system
+...
+```
+just try remove the **package-lock.json** it will fix the issue.
+
+
+<br><br>
 install all needed dependencies of this project;
 <br> <br>
 
